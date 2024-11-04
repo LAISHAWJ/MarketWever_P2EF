@@ -9,7 +9,7 @@ using System.Data;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MarketWevers_Northwind.DATA
+namespace MarketWevers_Northwind.Data
 {
     public partial interface INorthwindContextProcedures
     {
