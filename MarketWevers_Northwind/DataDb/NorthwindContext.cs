@@ -53,7 +53,7 @@ public partial class NorthwindContext : DbContext
 
     public virtual DbSet<QuarterlyOrder> QuarterlyOrders { get; set; }
 
-    public virtual DbSet<Region> Regions { get; set; }
+    public virtual DbSet<Models.Region> Regions { get; set; }
 
     public virtual DbSet<SalesByCategory> SalesByCategories { get; set; }
 
