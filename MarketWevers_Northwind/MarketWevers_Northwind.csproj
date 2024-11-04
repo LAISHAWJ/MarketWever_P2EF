@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\**" />
+    <Compile Remove="Models %28class%29\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <EmbeddedResource Remove="Models %28class%29\**" />
+    <None Remove="Data\**" />
+    <None Remove="Models %28class%29\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.10.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
     <PackageReference Include="FontAwesome.Sharp" Version="6.6.0" />
@@ -34,11 +43,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models %28class%29\" />
-    <Folder Include="Data\" />
   </ItemGroup>
 
 </Project>
