@@ -10,6 +10,10 @@ namespace MarketWevers_Northwind.DataDb;
 
 public partial class NorthwindContext : DbContext
 {
+    public NorthwindContext()
+    {
+    }
+
     public NorthwindContext(DbContextOptions<NorthwindContext> options)
         : base(options)
     {

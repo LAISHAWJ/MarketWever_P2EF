@@ -35,10 +35,10 @@
             BtUpdate = new Button();
             BtAdd = new Button();
             label1 = new Label();
-            dataGridView1 = new DataGridView();
+            DtGrVwProduc = new DataGridView();
             panel2 = new Panel();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DtGrVwProduc).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -118,14 +118,14 @@
             label1.Text = "PRODUCTOS";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // dataGridView1
+            // DtGrVwProduc
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(379, 121);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(850, 553);
-            dataGridView1.TabIndex = 1;
+            DtGrVwProduc.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DtGrVwProduc.Location = new Point(379, 121);
+            DtGrVwProduc.Name = "DtGrVwProduc";
+            DtGrVwProduc.RowHeadersWidth = 51;
+            DtGrVwProduc.Size = new Size(850, 553);
+            DtGrVwProduc.TabIndex = 1;
             // 
             // panel2
             // 
@@ -142,7 +142,7 @@
             BackColor = Color.Firebrick;
             ClientSize = new Size(1246, 686);
             Controls.Add(panel2);
-            Controls.Add(dataGridView1);
+            Controls.Add(DtGrVwProduc);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "FrmProduct";
@@ -150,7 +150,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DtGrVwProduc).EndInit();
             ResumeLayout(false);
         }
 
@@ -161,7 +161,7 @@
         private Button BtUpdate;
         private Button BtAdd;
         private Label label1;
-        private DataGridView dataGridView1;
+        private DataGridView DtGrVwProduc;
         private Panel panel2;
         private Button BtBack;
     }

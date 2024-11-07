@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace MarketWevers_Northwind
 {
-    public partial class FrmProduct : Form
+    public partial class FrmSupplier : Form
     {
-        public FrmProduct()
+        public FrmSupplier()
         {
             InitializeComponent();
-        }
-
-        private void BtBack_Click(object sender, EventArgs e)
-        {
-            FrmMenu frmMenu = new FrmMenu();
-            this.Hide();
-            frmMenu.ShowDialog();
         }
     }
 }

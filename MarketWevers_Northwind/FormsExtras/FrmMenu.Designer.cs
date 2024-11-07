@@ -79,6 +79,7 @@
             BtMenuCateg.Size = new Size(134, 77);
             BtMenuCateg.Text = "CATEGORIAS";
             BtMenuCateg.TextImageRelation = TextImageRelation.ImageAboveText;
+            BtMenuCateg.Click += BtMenuCateg_Click;
             // 
             // BtMenuSuplid
             // 
@@ -93,6 +94,7 @@
             BtMenuSuplid.Size = new Size(131, 77);
             BtMenuSuplid.Text = "SUPLIDORES";
             BtMenuSuplid.TextImageRelation = TextImageRelation.ImageAboveText;
+            BtMenuSuplid.Click += BtMenuSuplid_Click;
             // 
             // BtMenuOrder
             // 

@@ -8,9 +8,9 @@ using System.Collections.Generic;
 
 namespace MarketWevers_Northwind.DataDb.Configurations
 {
-    public partial class RegionConfiguration : IEntityTypeConfiguration<Region>
+    public partial class RegionConfiguration : IEntityTypeConfiguration<Models.Region>
     {
-        public void Configure(EntityTypeBuilder<Region> entity)
+        public void Configure(EntityTypeBuilder<Models.Region> entity)
         {
             entity.HasKey(e => e.RegionId).IsClustered(false);
 
@@ -27,6 +27,6 @@ namespace MarketWevers_Northwind.DataDb.Configurations
             OnConfigurePartial(entity);
         }
 
-        partial void OnConfigurePartial(EntityTypeBuilder<Region> entity);
+        partial void OnConfigurePartial(EntityTypeBuilder<Models.Region> entity);
     }
 }

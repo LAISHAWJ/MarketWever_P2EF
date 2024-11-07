@@ -19,9 +19,23 @@ namespace MarketWevers_Northwind
 
         private void BtMenuProduct_Click(object sender, EventArgs e)
         {
-            FrmProduct product = new FrmProduct();
+           FrmProduct frmProduct = new FrmProduct();
+           this.Hide();
+           frmProduct.Show();
+        }
+
+        private void BtMenuCateg_Click(object sender, EventArgs e)
+        {
+            FrmCategory frmCategory = new FrmCategory();
             this.Hide();
-            product.Show();
+            frmCategory.Show();
+        }
+
+        private void BtMenuSuplid_Click(object sender, EventArgs e)
+        {
+            FrmSupplier frmSupplier = new FrmSupplier();
+            this.Hide();
+            frmSupplier.Show();
         }
 
         private void BtMenuExit_Click(object sender, EventArgs e)
@@ -33,5 +47,6 @@ namespace MarketWevers_Northwind
                 Application.Exit();
             }
         }
+       
     }
 }
